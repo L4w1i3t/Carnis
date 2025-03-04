@@ -4,7 +4,7 @@ A modular, hierarchical web data processing system that crawls, processes, analy
 
 ## Overview
 
-Carnis is a sophisticated data harvesting and processing system with a biological metaphor at its core, based on Darian Quiloy's *Vita Carnis* analog horror series. The system is structured in a hierarchical manner, with components working together like organisms in a symbiotic relationship:
+Carnis is a sophisticated data harvesting and processing system with a biological metaphor at its core, based on Darian Quilloy's *Vita Carnis* analog horror series. The system is structured in a hierarchical manner, with components working together like organisms in a symbiotic relationship:
 
 - **Crawl**: Gathers raw data from the web while respecting robots.txt rules
 - **Trimmings**: Processes and cleans the raw data
@@ -146,8 +146,8 @@ This project is licensed under the terms of the included LICENSE file.
 
 ## Credits
 
-Created by [L4w1i3t](https://github.com/L4w1i3t)
-Source material by Darian Quiloy(https://www.youtube.com/playlist?list=PLoQCowtS-bYLdCasDSl0rMqEfcswN2L3Q)
+- Created by [L4w1i3t](https://github.com/L4w1i3t)
+- Source material by Darian Quilloy(https://www.youtube.com/playlist?list=PLoQCowtS-bYLdCasDSl0rMqEfcswN2L3Q)
 
 ## Last Updated
 2025-03-04
