@@ -10,16 +10,16 @@ import os
 import subprocess
 import sys
 
-class MeatSnake:
+class Meatsnake:
     """
-    MeatSnake consumes trimmed data and transforms it into a knowledge graph,
+    Meatsnake consumes trimmed data and transforms it into a knowledge graph,
     creating connections between concepts - like a snake digesting meat
     and building new structures from it.
     """
     
     def __init__(self, input_file='trimmed_data.json', output_file='knowledge_graph.json'):
         """
-        Initialize the MeatSnake processor.
+        Initialize the Meatsnake processor.
         
         Args:
             input_file (str): Path to the JSON file containing trimmed data
@@ -311,5 +311,5 @@ class MeatSnake:
 
 if __name__ == "__main__":
     # Example usage
-    snake = MeatSnake(input_file='trimmed_data.json', output_file='knowledge_graph.json')
+    snake = Meatsnake(input_file='trimmed_data.json', output_file='knowledge_graph.json')
     graph = snake.build_graph()

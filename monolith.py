@@ -169,23 +169,38 @@ class Monolith:
             harvester_path = component_paths.get('harvester')
             if harvester_path and os.path.exists(harvester_path):
                 try:
-                    with open(harvester_path, 'r') as f:
-                        harvester_data = json.load(f)
-                        
-                    # Integrate into knowledge store
-                    for entry in harvester_data:
-                        entity_id = entry.get('id') or entry.get('title') or str(hash(json.dumps(entry)))
-                        
-                        if entity_id in self.knowledge_store:
-                            # Merge with existing knowledge
-                            self._merge_knowledge_entries(self.knowledge_store[entity_id], entry)
+                    # Change this - look for the harvested_insights.json file inside the directory
+                    insights_file = os.path.join(harvester_path, 'harvested_insights.json')
+                    
+                    # Check if the file exists before trying to read it
+                    if os.path.isfile(insights_file):
+                        with open(insights_file, 'r') as f:
+                            harvester_data = json.load(f)
+                            
+                        # Extract entries if the harvester data is a dictionary with entries inside
+                        if isinstance(harvester_data, dict):
+                            # Handle the actual structure of harvested_insights.json
+                            # We might need to adapt this based on the actual structure
+                            harvested_entries = [harvester_data]  # Wrap in list if it's a single object
                         else:
-                            # Add new knowledge
-                            self.knowledge_store[entity_id] = entry
-                            self.knowledge_store[entity_id]['sources'] = [host_id]
-                            self.knowledge_store[entity_id]['integration_timestamp'] = time.time()
+                            harvested_entries = harvester_data  # Use as is if already a list
+                        
+                        # Integrate into knowledge store
+                        for entry in harvested_entries:
+                            entity_id = entry.get('id') or entry.get('title') or str(hash(json.dumps(entry)))
+                            
+                            if entity_id in self.knowledge_store:
+                                # Merge with existing knowledge
+                                self._merge_knowledge_entries(self.knowledge_store[entity_id], entry)
+                            else:
+                                # Add new knowledge
+                                self.knowledge_store[entity_id] = entry
+                                self.knowledge_store[entity_id]['sources'] = [host_id]
+                                self.knowledge_store[entity_id]['integration_timestamp'] = time.time()
+                    else:
+                        self.logger.warning(f"Harvester insights file not found at {insights_file}")
                 except Exception as e:
-                    self.logger.error(f"Error integrating knowledge from {host_id}: {e}")
+                    self.logger.error(f"Error integrating knowledge from {host_id}: {e}", exc_info=True)
         
         # Save updated knowledge store
         self._save_knowledge_store()

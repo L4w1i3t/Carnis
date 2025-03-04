@@ -12,7 +12,7 @@ import yaml
 # Import components
 from crawl import Crawler
 from trimmings import Trimmings
-from meatsnake import MeatSnake
+from meatsnake import Meatsnake
 from mimic import Mimic
 from harvester import Harvester
 
@@ -135,7 +135,7 @@ class Host:
                 'config': self.config.get('components', {}).get('trimmings', {})
             },
             'meatsnake': {
-                'class': MeatSnake,
+                'class': Meatsnake,
                 'initialized': False,
                 'instance': None,
                 'config': self.config.get('components', {}).get('meatsnake', {})
@@ -228,7 +228,7 @@ class Host:
                         <h3>Individual Components</h3>
                         <button onclick="runComponent('crawl')">Run Crawl</button>
                         <button onclick="runComponent('trimmings')">Run Trimmings</button>
-                        <button onclick="runComponent('meatsnake')">Run MeatSnake</button>
+                        <button onclick="runComponent('meatsnake')">Run Meatsnake</button>
                         <button onclick="runComponent('mimic')">Run Mimic</button>
                         <button onclick="runComponent('harvester')">Run Harvester</button>
                     </div>
@@ -335,7 +335,7 @@ class Host:
                 )
                 
             elif component_name == 'meatsnake':
-                # MeatSnake processes trimmed data
+                # Meatsnake processes trimmed data
                 input_file = paths['trimmings']
                 output_file = paths['meatsnake']
                 
