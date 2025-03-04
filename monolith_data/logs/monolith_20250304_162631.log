@@ -1,0 +1,209 @@
+2025-03-04 16:26:31,242 - Monolith - INFO - Initializing host: primary
+2025-03-04 16:26:31,242 - host - INFO - Host system initialized
+2025-03-04 16:26:31,247 - Monolith - INFO - Loaded knowledge store with 0 entities
+2025-03-04 16:26:31,247 - Monolith - INFO - Monolith initialized. Higher consciousness emerging.
+2025-03-04 16:26:31,247 - Monolith - INFO - Starting Monolith system
+2025-03-04 16:26:31,248 - host - INFO - API server started at http://127.0.0.1:5000
+2025-03-04 16:26:31,248 - Monolith - INFO - Started host: primary
+2025-03-04 16:26:31,249 - Monolith - INFO - Beginning knowledge integration process
+2025-03-04 16:26:31,249 - Monolith - INFO - Monolith system running
+2025-03-04 16:26:31,252 - Monolith - INFO - Saved knowledge store with 1 entities
+2025-03-04 16:26:31,252 - Monolith - INFO - Analyzing 1 entities for meta-patterns
+2025-03-04 16:26:31,252 - Monolith - INFO - Identified 0 cross-domain concepts
+2025-03-04 16:26:31,253 - Monolith - INFO - Knowledge integration complete
+2025-03-04 16:26:31,257 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-04 16:26:31,258 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-04 16:26:45,043 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:26:45] "GET / HTTP/1.1" 200 -
+2025-03-04 16:26:45,131 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:26:45] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:26:48,253 - host - INFO - Starting full processing cycle
+2025-03-04 16:26:48,253 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:26:48] "POST /api/run-cycle HTTP/1.1" 200 -
+2025-03-04 16:26:48,254 - host - INFO - Component crawl initialized
+2025-03-04 16:26:48,254 - host - INFO - Running component: crawl
+2025-03-04 16:26:49,423 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:26:49] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:26:50,118 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:26:50] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:26:55,111 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:26:55] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:27:01,108 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:27:01] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:27:06,135 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:27:06] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:27:11,115 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:27:11] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:27:16,108 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:27:16] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:27:20,106 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:27:20] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:27:25,118 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:27:25] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:27:30,109 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:27:30] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:27:35,107 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:27:35] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:27:40,119 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:27:40] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:27:45,121 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:27:45] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:27:50,107 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:27:50] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:27:55,119 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:27:55] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:28:00,119 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:28:00] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:28:05,117 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:28:05] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:28:10,107 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:28:10] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:28:15,118 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:28:15] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:28:20,107 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:28:20] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:28:25,107 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:28:25] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:28:30,156 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:28:30] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:28:35,111 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:28:35] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:28:36,934 - host - INFO - Component crawl completed successfully
+2025-03-04 16:28:38,480 - host - INFO - Component trimmings initialized
+2025-03-04 16:28:38,481 - host - INFO - Running component: trimmings
+2025-03-04 16:28:40,177 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:28:40] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:28:42,508 - host - INFO - Component trimmings completed successfully
+2025-03-04 16:28:42,975 - host - INFO - Component meatsnake initialized
+2025-03-04 16:28:42,975 - host - INFO - Running component: meatsnake
+2025-03-04 16:28:45,120 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:28:45] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:28:50,112 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:28:50] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:28:55,138 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:28:55] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:29:00,425 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:29:00] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:29:05,110 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:29:05] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:29:10,119 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:29:10] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:29:15,119 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:29:15] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:29:20,112 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:29:20] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:29:26,109 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:29:26] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:29:31,127 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:29:31] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:29:36,114 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:29:36] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:29:41,168 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:29:41] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:29:46,110 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:29:46] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:29:50,107 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:29:50] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:29:55,177 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:29:55] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:30:00,164 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:30:00] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:30:05,161 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:30:05] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:30:10,145 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:30:10] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:30:16,147 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:30:16] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:30:21,158 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:30:21] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:30:25,243 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:30:25] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:30:31,148 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:30:31] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:30:35,179 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:30:35] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:30:40,170 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:30:40] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:30:45,141 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:30:45] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:30:50,173 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:30:50] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:30:55,156 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:30:55] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:31:00,181 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:31:00] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:31:05,175 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:31:05] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:31:07,368 - host - INFO - Component meatsnake completed successfully
+2025-03-04 16:31:07,910 - host - INFO - Component mimic initialized
+2025-03-04 16:31:07,912 - host - INFO - Running component: mimic
+2025-03-04 16:31:10,160 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:31:10] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:31:15,159 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:31:15] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:31:20,158 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:31:20] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:31:25,157 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:31:25] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:31:30,177 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:31:30] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:31:35,174 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:31:35] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:31:40,156 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:31:40] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:31:45,172 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:31:45] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:31:51,171 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:31:51] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:31:56,163 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:31:56] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:32:01,169 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:32:01] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:32:06,159 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:32:06] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:32:11,186 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:32:11] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:32:16,171 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:32:16] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:32:21,140 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:32:21] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:32:26,203 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:32:26] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:32:31,173 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:32:31] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:32:36,168 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:32:36] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:32:41,174 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:32:41] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:32:46,170 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:32:46] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:33:15,172 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:33:15] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:33:20,709 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:33:20] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:33:25,175 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:33:25] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:33:30,171 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:33:30] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:33:35,174 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:33:35] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:33:41,177 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:33:41] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:33:46,176 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:33:46] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:33:51,168 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:33:51] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:33:56,169 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:33:56] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:34:01,172 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:34:01] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:34:06,157 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:34:06] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:34:11,167 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:34:11] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:34:16,173 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:34:16] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:34:21,174 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:34:21] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:34:26,159 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:34:26] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:34:31,149 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:34:31] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:35:15,155 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:35:15] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:35:26,839 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:35:26] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:35:30,156 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:35:30] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:35:35,167 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:35:35] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:35:40,156 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:35:40] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:35:45,168 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:35:45] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:35:50,166 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:35:50] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:35:55,170 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:35:55] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:36:00,204 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:36:00] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:36:05,170 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:36:05] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:36:10,135 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:36:10] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:36:15,141 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:36:15] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:36:20,175 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:36:20] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:36:25,162 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:36:25] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:36:30,170 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:36:30] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:36:35,179 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:36:35] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:36:40,155 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:36:40] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:36:45,179 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:36:45] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:36:50,211 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:36:50] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:36:55,176 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:36:55] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:37:00,171 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:37:00] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:37:05,179 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:37:05] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:37:10,211 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:37:10] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:37:15,168 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:37:15] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:37:20,169 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:37:20] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:37:25,175 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:37:25] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:37:31,158 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:37:31] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:37:36,171 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:37:36] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:37:41,152 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:37:41] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:37:46,174 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:37:46] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:37:51,167 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:37:51] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:37:56,163 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:37:56] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:38:01,168 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:38:01] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:38:06,189 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:38:06] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:38:11,176 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:38:11] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:38:16,160 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:38:16] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:38:21,148 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:38:21] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:38:25,167 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:38:25] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:38:30,167 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:38:30] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:38:36,167 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:38:36] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:38:41,170 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:38:41] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:38:46,166 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:38:46] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:38:50,180 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:38:50] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:38:56,120 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:38:56] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:39:01,120 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:39:01] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:39:06,111 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:39:06] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:39:11,114 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:39:11] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:39:16,107 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:39:16] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:39:21,113 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:39:21] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:39:24,090 - host - INFO - Component mimic completed successfully
+2025-03-04 16:39:24,092 - host - INFO - Component harvester initialized
+2025-03-04 16:39:24,092 - host - INFO - Running component: harvester
+2025-03-04 16:39:25,956 - host - INFO - Component harvester completed successfully
+2025-03-04 16:39:25,956 - host - INFO - Full cycle completed successfully in 757.70 seconds
+2025-03-04 16:39:26,110 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:39:26] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:39:31,116 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:39:31] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:39:36,114 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:39:36] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:39:41,113 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:39:41] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:39:46,111 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:39:46] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:40:00,179 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:40:00] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:40:05,112 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:40:05] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:40:10,107 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:40:10] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:40:15,116 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:40:15] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:40:20,122 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:40:20] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:40:26,113 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:40:26] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:40:31,120 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:40:31] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:40:36,105 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:40:36] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:40:41,117 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:40:41] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:40:46,118 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:40:46] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:40:51,107 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:40:51] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:40:55,689 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:40:55] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:41:01,103 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:41:01] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:41:06,115 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:41:06] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:41:11,107 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:41:11] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:41:16,111 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:41:16] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:41:21,105 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:41:21] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:41:26,110 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:41:26] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:41:31,106 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:41:31] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:41:36,103 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:41:36] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:41:41,108 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:41:41] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:41:46,103 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:41:46] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:41:51,109 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:41:51] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:41:56,110 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:41:56] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:42:15,113 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:42:15] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:43:15,119 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:43:15] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:44:15,114 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 16:44:15] "GET /api/status HTTP/1.1" 200 -
+2025-03-04 16:45:05,323 - Monolith - INFO - Stopping Monolith system
+2025-03-04 16:45:10,333 - Monolith - INFO - Saved knowledge store with 1 entities
+2025-03-04 16:45:10,333 - Monolith - INFO - Monolith system stopped

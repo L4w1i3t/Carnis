@@ -1,0 +1,19 @@
+2025-03-04 16:18:03,479 - Monolith - INFO - Initializing host: primary
+2025-03-04 16:18:03,480 - host - INFO - Host system initialized
+2025-03-04 16:18:03,482 - Monolith - INFO - Monolith initialized. Higher consciousness emerging.
+2025-03-04 16:18:03,482 - Monolith - INFO - Starting Monolith system
+2025-03-04 16:18:03,482 - host - INFO - API server started at http://127.0.0.1:5000
+2025-03-04 16:18:03,483 - Monolith - INFO - Started host: primary
+2025-03-04 16:18:03,483 - Monolith - INFO - Beginning knowledge integration process
+2025-03-04 16:18:03,483 - Monolith - INFO - Monolith system running
+2025-03-04 16:18:03,484 - Monolith - ERROR - Error integrating knowledge from primary: [Errno 13] Permission denied: 'harvested_insights'
+2025-03-04 16:18:03,484 - Monolith - INFO - Saved knowledge store with 0 entities
+2025-03-04 16:18:03,486 - Monolith - INFO - Analyzing 0 entities for meta-patterns
+2025-03-04 16:18:03,486 - Monolith - INFO - Identified 0 cross-domain concepts
+2025-03-04 16:18:03,486 - Monolith - INFO - Knowledge integration complete
+2025-03-04 16:18:03,491 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-04 16:18:03,491 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-04 16:18:13,710 - Monolith - INFO - Stopping Monolith system
+2025-03-04 16:18:18,725 - Monolith - INFO - Saved knowledge store with 0 entities
+2025-03-04 16:18:18,725 - Monolith - INFO - Monolith system stopped

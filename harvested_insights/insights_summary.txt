@@ -1,0 +1,23 @@
+# HARVESTED INSIGHTS SUMMARY
+
+## Content Analysis
+Top concepts: ethical, changes, considerations, environmental, history, papers, phylum, 11, anthology, biology
+
+Identified topics:
+- Topic 1: ethical, phylum, considerations, changes, environmental
+- Topic 2: http, years, issues, change, point
+- Topic 3: history, papers, paper, original, published
+
+## Path Analysis
+Central concepts: bas new york w h freeman isbn hartl d jones e genetics analysis, the critical roles, e un intestino terminal que comprende o cego moi desenvolvido, these species, such a modification
+Network density: 0.500
+Average clustering: 0.000
+
+## Quality Assessment
+Overall quality score: 0.64/1.00
+Coherence: 0.27/1.00
+Complexity: 0.65/1.00
+Novelty: 0.99/1.00
+
+## Recommendations
+- Improve coherence by strengthening connections between concepts

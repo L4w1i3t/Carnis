@@ -1,0 +1,423 @@
+{
+  "-6629754495715015245": {
+    "content_features": {
+      "word_frequencies": {
+        "allies": 1,
+        "allow": 1,
+        "american": 1,
+        "asian": 1,
+        "backed": 1,
+        "basic": 2,
+        "beginning": 2,
+        "born": 1,
+        "boy": 1,
+        "came": 2,
+        "central": 1,
+        "changed": 2,
+        "character": 2,
+        "characters": 1,
+        "children": 1,
+        "china": 3,
+        "chinese": 1,
+        "city": 2,
+        "clear": 1,
+        "collapse": 1,
+        "come": 2,
+        "common": 1,
+        "communicate": 1,
+        "concepts": 4,
+        "concrete": 1,
+        "contact": 1,
+        "context": 1,
+        "countries": 1,
+        "creating": 1,
+        "crisis": 1,
+        "day": 1,
+        "dealing": 1,
+        "death": 1,
+        "decide": 1,
+        "described": 1,
+        "did": 3,
+        "different": 2,
+        "does": 1,
+        "earlier": 1,
+        "economic": 1,
+        "effective": 1,
+        "efforts": 1,
+        "end": 2,
+        "ends": 1,
+        "european": 2,
+        "example": 2,
+        "examples": 1,
+        "existing": 1,
+        "experiences": 1,
+        "explain": 2,
+        "fact": 1,
+        "family": 1,
+        "focus": 1,
+        "framework": 1,
+        "free": 1,
+        "fun": 1,
+        "future": 1,
+        "generate": 1,
+        "girl": 1,
+        "given": 1,
+        "good": 2,
+        "grasp": 1,
+        "group": 1,
+        "happens": 1,
+        "hero": 1,
+        "heroine": 1,
+        "history": 3,
+        "icons": 1,
+        "implications": 1,
+        "impose": 1,
+        "individual": 1,
+        "information": 1,
+        "instead": 1,
+        "interesting": 1,
+        "jinping": 1,
+        "know": 1,
+        "korea": 1,
+        "korean": 1,
+        "life": 2,
+        "like": 1,
+        "lot": 1,
+        "making": 1,
+        "man": 3,
+        "media": 1,
+        "meet": 1,
+        "metaphor": 1,
+        "narrative": 6,
+        "nation": 1,
+        "need": 4,
+        "north": 6,
+        "point": 2,
+        "read": 2,
+        "relationship": 4,
+        "simple": 2,
+        "stories": 3,
+        "story": 9,
+        "support": 3,
+        "understand": 2,
+        "use": 3,
+        "world": 2
+      },
+      "phrase_patterns": {
+        "affected backed": 1,
+        "american european asian": 1,
+        "asian group": 1,
+        "asian group pushing": 1,
+        "backed north": 1,
+        "backed north korean": 1,
+        "basic concepts": 1,
+        "basic concepts explain": 1,
+        "basic structure": 1,
+        "basic structure subitem": 1,
+        "beginning death": 1,
+        "beginning death history": 1,
+        "beginning man": 1,
+        "beginning man end": 1,
+        "born thousand": 1,
+        "born thousand years": 1,
+        "boy girl": 1,
+        "relationship china": 2,
+        "support north": 1,
+        "support north american": 1,
+        "support primary": 1,
+        "support primary reason": 1,
+        "support resolution": 1,
+        "support resolution crisis": 1,
+        "survive clear": 1,
+        "survive clear concrete": 1,
+        "thinking generate": 1,
+        "thinking generate narrative": 1,
+        "thousand years": 1,
+        "thousand years earlier": 1,
+        "time know": 1,
+        "time know protagonist": 1,
+        "trade zone": 1,
+        "trade zone central": 1,
+        "understand concepts": 1,
+        "understand concepts used": 1,
+        "understand use": 1,
+        "understand use narrative": 1,
+        "union shown": 1,
+        "union shown does": 1,
+        "use basic": 1,
+        "use basic concepts": 1,
+        "use narrative": 1,
+        "use narrative storytelling": 1,
+        "use specific": 1,
+        "use specific context": 1,
+        "used concepts": 1,
+        "used concepts concepts": 1,
+        "variety sources": 1,
+        "variety sources example": 1
+      },
+      "sentiment_distribution": {},
+      "topic_distribution": [
+        {
+          "id": 0,
+          "top_words": [
+            "story",
+            "narrative",
+            "man",
+            "did",
+            "need",
+            "concepts",
+            "stories",
+            "history",
+            "come",
+            "read"
+          ],
+          "weight": 70.17387617354707
+        },
+        {
+          "id": 1,
+          "top_words": [
+            "relationship",
+            "need",
+            "concepts",
+            "use",
+            "simple",
+            "european",
+            "end",
+            "explain",
+            "basic",
+            "understand"
+          ],
+          "weight": 56.08123596544155
+        },
+        {
+          "id": 2,
+          "top_words": [
+            "north",
+            "support",
+            "china",
+            "relationship",
+            "wants",
+            "zone",
+            "west",
+            "xi",
+            "straightforward",
+            "stated"
+          ],
+          "weight": 62.60708747624794
+        }
+      ],
+      "conceptual_relationships": [
+        {
+          "source": "focus",
+          "relation": "is",
+          "target": "on",
+          "sample_id": 1
+        },
+        {
+          "source": "This",
+          "relation": "is",
+          "target": "the",
+          "sample_id": 1
+        },
+        {
+          "source": "it",
+          "relation": "is",
+          "target": "offering",
+          "sample_id": 1
+        },
+        {
+          "source": "that",
+          "relation": "is",
+          "target": "pushing",
+          "sample_id": 1
+        },
+        {
+          "source": "US",
+          "relation": "is",
+          "target": "not",
+          "sample_id": 1
+        },
+        {
+          "source": "US",
+          "relation": "has",
+          "target": "shown",
+          "sample_id": 1
+        },
+        {
+          "source": "Washington",
+          "relation": "has",
+          "target": "refused",
+          "sample_id": 1
+        },
+        {
+          "source": "Jinping",
+          "relation": "has",
+          "target": "stated",
+          "sample_id": 1
+        },
+        {
+          "source": "who",
+          "relation": "is",
+          "target": "the",
+          "sample_id": 3
+        },
+        {
+          "source": "It",
+          "relation": "is",
+          "target": "up",
+          "sample_id": 3
+        },
+        {
+          "source": "This",
+          "relation": "is",
+          "target": "why",
+          "sample_id": 3
+        },
+        {
+          "source": "that",
+          "relation": "is",
+          "target": "simple",
+          "sample_id": 3
+        },
+        {
+          "source": "you",
+          "relation": "are",
+          "target": "thinking",
+          "sample_id": 3
+        },
+        {
+          "source": "that",
+          "relation": "are",
+          "target": "used",
+          "sample_id": 3
+        },
+        {
+          "source": "media",
+          "relation": "are",
+          "target": "from",
+          "sample_id": 3
+        },
+        {
+          "source": "there",
+          "relation": "are",
+          "target": "many",
+          "sample_id": 3
+        }
+      ]
+    },
+    "path_patterns": {
+      "common_nodes": {
+        "russia investigation false claims": 1,
+        "education pluralism": 1,
+        "cable pdf": 1,
+        "\u82f1\u8a9e\u7248 \u30c7\u30fc\u30bf\u306e\u53ce\u96c6\u307e\u305f\u306f\u7d50\u679c\u306e\u89e3\u91c8\u306f\u3059\u3079\u3066\u8ad6\u7406\u7684\u306b\u5feb\u9069\u306a\u74b0\u5883\u3088\u308a\u3082\u5927\u304d\u306a\u7cbe\u67fb\u306e\u5bfe\u8c61\u3068\u306a\u308b\u7d71\u8a08\u30e2\u30c7\u30eb\u306f \u691c\u8a3c\u306e\u30d7\u30ed\u30bb\u30b9": 1,
+        "thought": 1,
+        "the following subcategories": 1,
+        "the transformation": 1,
+        "almost any goal": 1,
+        "true findings": 1,
+        "certain rules": 1,
+        "bajo la licencia creative commons atribuci\u00f3ncompartirigual": 1,
+        "existir condiciones adicionales": 1,
+        "cnbc executive roger ailes": 1,
+        "hannity hannity": 1,
+        "mathematical apocrypha redux": 1,
+        "purine synthesis": 1
+      },
+      "transitions": {
+        "bajo la licencia creative commons atribuci\u00f3ncompartirigual_to_existir condiciones adicionales": 1
+      },
+      "path_lengths": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "connection_density": {
+        "nodes": 2,
+        "edges": 1,
+        "density": 0.5,
+        "average_clustering": 0.0
+      }
+    },
+    "quality_assessment": {
+      "coherence_scores": [
+        {
+          "sample_id": 1,
+          "score": 0.0
+        },
+        {
+          "sample_id": 2,
+          "score": 0.0
+        },
+        {
+          "sample_id": 3,
+          "score": 0.0
+        }
+      ],
+      "complexity_metrics": [
+        {
+          "sample_id": 1,
+          "complexity": 0.8450396825396826,
+          "avg_sentence_length": 21.857142857142858,
+          "avg_word_length": 4.777777777777778
+        },
+        {
+          "sample_id": 2,
+          "complexity": 0.6825027085590466,
+          "avg_sentence_length": 16.384615384615383,
+          "avg_word_length": 4.366197183098592
+        },
+        {
+          "sample_id": 3,
+          "complexity": 0.7363857016769637,
+          "avg_sentence_length": 18.727272727272727,
+          "avg_word_length": 4.29126213592233
+        }
+      ],
+      "novelty_assessment": [
+        {
+          "sample_id": 1,
+          "novelty_score": 0.9537945226643207,
+          "avg_similarity_to_others": 0.04620547733567931
+        },
+        {
+          "sample_id": 2,
+          "novelty_score": 0.8821044331088206,
+          "avg_similarity_to_others": 0.11789556689117947
+        },
+        {
+          "sample_id": 3,
+          "novelty_score": 0.8717230116625819,
+          "avg_similarity_to_others": 0.12827698833741805
+        }
+      ],
+      "overall_quality": {
+        "score": 0.5523944511346017,
+        "avg_coherence": 0.0,
+        "avg_complexity": 0.7546426975918976,
+        "avg_novelty": 0.9025406558119077
+      }
+    },
+    "meta": {
+      "sample_count": 3,
+      "harvested_at": 1741121007.173079,
+      "source": "mimicked_content"
+    },
+    "sources": [
+      "primary"
+    ],
+    "integration_timestamp": 1741123591.2500365
+  }
+}
