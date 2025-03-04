@@ -1,0 +1,23 @@
+# HARVESTED INSIGHTS SUMMARY
+
+## Content Analysis
+Top concepts: story, narrative, north, concepts, need, relationship, china, did, history, man
+
+Identified topics:
+- Topic 1: story, narrative, man, did, need
+- Topic 2: relationship, need, concepts, use, simple
+- Topic 3: north, support, china, relationship, wants
+
+## Path Analysis
+Central concepts: russia investigation false claims, education pluralism, cable pdf, 英語版 データの収集または結果の解釈はすべて論理的に快適な環境よりも大きな精査の対象となる統計モデルは 検証のプロセス, thought
+Network density: 0.500
+Average clustering: 0.000
+
+## Quality Assessment
+Overall quality score: 0.55/1.00
+Coherence: 0.00/1.00
+Complexity: 0.75/1.00
+Novelty: 0.90/1.00
+
+## Recommendations
+- Improve coherence by strengthening connections between concepts
