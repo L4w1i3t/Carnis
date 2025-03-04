@@ -4,5 +4,6 @@ mimicked_content/
 monolith_data/
 crawled_data.json
 knowledge_graph.json
+knowledge_graph.html
 monolith_config.yaml
 trimmed_data.json
