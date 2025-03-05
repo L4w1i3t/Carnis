@@ -16,7 +16,7 @@ class Harvester:
     drawing nutrients and energy from it.
     """
     
-    def __init__(self, input_dir='mimicked_content', output_dir='harvested_insights'):
+    def __init__(self, input_dir=None, output_dir=None):
         """
         Initialize the Harvester.
         
@@ -24,6 +24,15 @@ class Harvester:
             input_dir (str): Directory containing mimicked content
             output_dir (str): Directory to save harvested insights
         """
+        import os
+        
+        # Set default paths within the carnis_data directory structure
+        if input_dir is None:
+            input_dir = os.path.join('carnis_data', 'mimic')
+        
+        if output_dir is None:
+            output_dir = os.path.join('carnis_data', 'harvester')
+        
         self.input_dir = input_dir
         self.output_dir = output_dir
         self.mimicked_samples = []
@@ -564,6 +573,6 @@ class Harvester:
 import time
 
 if __name__ == "__main__":
-    # Example usage
-    harvester = Harvester(input_dir='mimicked_content', output_dir='harvested_insights')
+    # Example usage with default paths that use the carnis_data directory structure
+    harvester = Harvester()
     harvested_data = harvester.harvest()

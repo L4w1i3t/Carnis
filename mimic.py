@@ -16,7 +16,7 @@ class Mimic:
     to infiltrate and reproduce.
     """
     
-    def __init__(self, input_graph='knowledge_graph.json', output_dir='mimicked_content'):
+    def __init__(self, input_graph=None, output_dir=None):
         """
         Initialize the Mimic generator.
         
@@ -24,6 +24,17 @@ class Mimic:
             input_graph (str): Path to the JSON knowledge graph file
             output_dir (str): Directory to save generated content
         """
+        import os
+        
+        # Set default paths within the carnis_data directory structure
+        if input_graph is None:
+            input_graph = os.path.join('carnis_data', 'meatsnake', 'knowledge_graph.json')
+        
+        if output_dir is None:
+            # Ensure the mimicked_content directory exists
+            output_dir = os.path.join('carnis_data', 'mimic')
+            os.makedirs(output_dir, exist_ok=True)
+
         self.input_graph = input_graph
         self.output_dir = output_dir
         self.knowledge_graph = None
@@ -348,7 +359,7 @@ class Mimic:
         return generated_samples
 
 if __name__ == "__main__":
-    # Example usage
-    mimic = Mimic(input_graph='knowledge_graph.json', output_dir='mimicked_content')
+    # Example usage with default paths that use the carnis_data directory structure
+    mimic = Mimic()
     mimic.generate_mimicked_content(num_samples=3)
     mimic.visualize_mimicry()

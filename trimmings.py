@@ -12,7 +12,7 @@ class Trimmings:
     preparing the content for further analysis - like trimming meat.
     """
     
-    def __init__(self, input_file='crawled_data.json', output_file='trimmed_data.json'):
+    def __init__(self, input_file=None, output_file=None):
         """
         Initialize the Trimmings processor.
         
@@ -20,6 +20,17 @@ class Trimmings:
             input_file (str): Path to the JSON file containing crawled data
             output_file (str): Path to save the processed data
         """
+        import os
+    
+        # Set default paths within the carnis_data directory structure
+        if input_file is None:
+            input_file = os.path.join('carnis_data', 'crawl', 'crawled_data.json')
+        
+        if output_file is None:
+            # Ensure the trimmings directory exists
+            os.makedirs(os.path.join('carnis_data', 'trimmings'), exist_ok=True)
+            output_file = os.path.join('carnis_data', 'trimmings', 'trimmed_data.json')
+
         self.input_file = input_file
         self.output_file = output_file
         self.raw_data = []
@@ -249,6 +260,12 @@ class Trimmings:
     
     def save_data(self):
         """Save processed data to output file"""
+        import os
+        
+        # Ensure the output directory exists
+        os.makedirs(os.path.dirname(self.output_file), exist_ok=True)
+        
+        # Save the data
         with open(self.output_file, 'w', encoding='utf-8') as f:
             json.dump(self.trimmed_data, f, indent=4)
         
@@ -256,6 +273,6 @@ class Trimmings:
         print(f"Trimmed data saved to {self.output_file}")
 
 if __name__ == "__main__":
-    # Example usage
-    trimmer = Trimmings(input_file='crawled_data.json', output_file='trimmed_data.json')
+    # Example usage with default paths that use the carnis_data directory structure
+    trimmer = Trimmings()
     processed_data = trimmer.process()

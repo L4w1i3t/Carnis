@@ -120,10 +120,21 @@ class Crawler:
         return self.crawled_data
     
     def save_results(self):
-        """Save the crawled data to a JSON file"""
-        with open('crawled_data.json', 'w') as f:
+        """Save the crawled data to a JSON file in the carnis_data folder"""
+        import os
+        
+        # Ensure the carnis_data directory exists
+        os.makedirs('carnis_data', exist_ok=True)
+
+        # Ensure the crawl directory with the crawled_data file exists
+        os.makedirs(os.path.join('carnis_data', 'crawl'), exist_ok=True)
+        
+        # Save the data to the carnis_data folder
+        output_path = os.path.join('carnis_data', 'crawl', 'crawled_data.json')
+        with open(output_path, 'w') as f:
             json.dump(self.crawled_data, f, indent=4)
         print(f"Crawl complete. Collected data from {len(self.crawled_data)} pages.")
+        print(f"Data saved to {output_path}")
 
 if __name__ == "__main__":
     # Example usage

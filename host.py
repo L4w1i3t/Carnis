@@ -286,13 +286,13 @@ class Host:
     
     def get_component_paths(self):
         """Get file paths for each component's data"""
-        # Return paths at the root level instead of in the data_dir
+        # Return paths using the carnis_data directory structure
         return {
-            'crawl': 'crawled_data.json',
-            'trimmings': 'trimmed_data.json',
-            'meatsnake': 'knowledge_graph.json',
-            'mimic': 'mimicked_content',
-            'harvester': 'harvested_insights'
+            'crawl': os.path.join('carnis_data', 'crawl', 'crawled_data.json'),
+            'trimmings': os.path.join('carnis_data', 'trimmings', 'trimmed_data.json'),
+            'meatsnake': os.path.join('carnis_data', 'meatsnake', 'knowledge_graph.json'),
+            'mimic': os.path.join('carnis_data', 'mimic'),
+            'harvester': os.path.join('carnis_data', 'harvester')
         }
     
     def initialize_component(self, component_name):

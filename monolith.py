@@ -169,7 +169,7 @@ class Monolith:
             harvester_path = component_paths.get('harvester')
             if harvester_path and os.path.exists(harvester_path):
                 try:
-                    # Change this - look for the harvested_insights.json file inside the directory
+                    # Look for the harvested_insights.json file inside the directory
                     insights_file = os.path.join(harvester_path, 'harvested_insights.json')
                     
                     # Check if the file exists before trying to read it
@@ -180,7 +180,6 @@ class Monolith:
                         # Extract entries if the harvester data is a dictionary with entries inside
                         if isinstance(harvester_data, dict):
                             # Handle the actual structure of harvested_insights.json
-                            # We might need to adapt this based on the actual structure
                             harvested_entries = [harvester_data]  # Wrap in list if it's a single object
                         else:
                             harvested_entries = harvester_data  # Use as is if already a list

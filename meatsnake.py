@@ -17,7 +17,7 @@ class Meatsnake:
     and building new structures from it.
     """
     
-    def __init__(self, input_file='trimmed_data.json', output_file='knowledge_graph.json'):
+    def __init__(self, input_file=None, output_file=None):
         """
         Initialize the Meatsnake processor.
         
@@ -25,6 +25,17 @@ class Meatsnake:
             input_file (str): Path to the JSON file containing trimmed data
             output_file (str): Path to save the knowledge graph data
         """
+        import os
+        
+        # Set default paths within the carnis_data directory structure
+        if input_file is None:
+            input_file = os.path.join('carnis_data', 'trimmings', 'trimmed_data.json')
+        
+        if output_file is None:
+            # Ensure the knowledge directory exists
+            os.makedirs(os.path.join('carnis_data', 'meatsnake'), exist_ok=True)
+            output_file = os.path.join('carnis_data', 'meatsnake', 'knowledge_graph.json')
+
         self.input_file = input_file
         self.output_file = output_file
         self.trimmed_data = []
@@ -239,17 +250,22 @@ class Meatsnake:
     
     def save_graph(self):
         """Save the knowledge graph to file and create visualization"""
+        import os
+        
+        # Ensure output directory exists
+        os.makedirs(os.path.dirname(self.output_file), exist_ok=True)
+        
         # Save as JSON for later use
         graph_data = nx.node_link_data(self.knowledge_graph)
         with open(self.output_file, 'w', encoding='utf-8') as f:
             json.dump(graph_data, f, indent=2)
         
-        # Create HTML visualization
+        # Create HTML visualization in the same directory
         html_file = self.output_file.replace('.json', '.html')
         self.visualize_graph(html_file)
         
         print(f"Knowledge graph built with {self.knowledge_graph.number_of_nodes()} nodes and "
-              f"{self.knowledge_graph.number_of_edges()} edges.")
+            f"{self.knowledge_graph.number_of_edges()} edges.")
         print(f"Graph data saved to {self.output_file}")
         print(f"Graph visualization saved to {html_file}")
     
@@ -310,6 +326,6 @@ class Meatsnake:
         net.save_graph(output_file)
 
 if __name__ == "__main__":
-    # Example usage
-    snake = Meatsnake(input_file='trimmed_data.json', output_file='knowledge_graph.json')
+    # Example usage with default paths that use the carnis_data directory structure
+    snake = Meatsnake()
     graph = snake.build_graph()
