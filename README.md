@@ -100,7 +100,7 @@ This provides status monitoring and control options for the system.
 
 ## Components
 
-### Crawler (`crawl.py`)
+### Crawl (`crawl.py`)
 - Web crawler that fetches content from seed URLs
 - Respects robots.txt rules
 - Configurable depth and delay settings
@@ -150,4 +150,4 @@ This project is licensed under the terms of the included LICENSE file.
 - Source material by Darian Quilloy(https://www.youtube.com/playlist?list=PLoQCowtS-bYLdCasDSl0rMqEfcswN2L3Q)
 
 ## Last Updated
-2025-03-04
+2025-03-06
