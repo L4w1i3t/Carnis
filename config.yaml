@@ -1,0 +1,20 @@
+api_enabled: true
+api_host: 127.0.0.1
+api_port: 5000
+auto_cycle: false
+components:
+  crawl:
+    delay: 1.5
+    max_pages: 50
+    seed_urls:
+    - https://en.wikipedia.org/wiki/Artificial_intelligence
+    - https://en.wikipedia.org/wiki/Biology
+    - https://en.wikipedia.org/wiki/Biotechnology
+  harvester: {}
+  meatsnake: {}
+  mimic:
+    num_samples: 3
+  trimmings: {}
+cycle_interval: 86400
+data_dir: carnis_data
+log_level: INFO

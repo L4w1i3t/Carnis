@@ -34,7 +34,7 @@ Monolith (Higher abstraction)
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/L4w1i3t/Carnis.git
+git clone https://github.com/L4w1i3t/Carnis
 cd Carnis
 ```
 
