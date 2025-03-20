@@ -469,34 +469,41 @@ class Host:
                     document.getElementById('cycleCount').textContent = data.cycle_count;
                     document.getElementById('lastUpdate').textContent = new Date(data.last_update * 1000).toLocaleString();
                     
-                    // Update component status list
+                    // Replace the existing component status list code
                     const componentList = document.getElementById('componentStatusList');
                     componentList.innerHTML = '';
-                    
-                    for (const [component, status] of Object.entries(data.component_states)) {
-                        const statusClass = getComponentStatusClass(status);
-                        const div = document.createElement('div');
-                        div.className = `component p-3 mb-2 ${statusClass}`;
-                        div.innerHTML = `
-                            <h5>${capitalizeFirstLetter(component)} 
-                                <span class="status-badge badge ${getStatusBadgeClass(status)}">${status}</span>
-                            </h5>
-                            <div class="progress mb-2">
-                                <div class="progress-bar ${getProgressBarClass(status)}" 
-                                     role="progressbar" 
-                                     style="width: ${getProgressWidth(status)}%" 
-                                     aria-valuenow="${getProgressWidth(status)}" 
-                                     aria-valuemin="0" 
-                                     aria-valuemax="100"></div>
-                            </div>
-                        `;
-                        componentList.appendChild(div);
+
+                    // Define the hierarchical order
+                    const componentOrder = ['crawl', 'trimmings', 'meatsnake', 'mimic', 'harvester'];
                         
-                        // Also update the status on the components tab
-                        const compStatus = document.getElementById(`${component}Status`);
-                        if (compStatus) {
-                            compStatus.textContent = status;
-                            compStatus.className = 'badge ' + getStatusBadgeClass(status) + ' ms-2';
+                    // Loop through components in the defined order
+                    for (const component of componentOrder) {
+                        if (component in data.component_states) {
+                            const status = data.component_states[component];
+                            const statusClass = getComponentStatusClass(status);
+                            const div = document.createElement('div');
+                            div.className = `component p-3 mb-2 ${statusClass}`;
+                            div.innerHTML = `
+                                <h5>${capitalizeFirstLetter(component)} 
+                                    <span class="status-badge badge ${getStatusBadgeClass(status)}">${status}</span>
+                                </h5>
+                                <div class="progress mb-2">
+                                    <div class="progress-bar ${getProgressBarClass(status)}" 
+                                        role="progressbar" 
+                                        style="width: ${getProgressWidth(status)}%" 
+                                        aria-valuenow="${getProgressWidth(status)}" 
+                                        aria-valuemin="0" 
+                                        aria-valuemax="100"></div>
+                                </div>
+                            `;
+                            componentList.appendChild(div);
+                            
+                            // Also update the status on the components tab
+                            const compStatus = document.getElementById(`${component}Status`);
+                            if (compStatus) {
+                                compStatus.textContent = status;
+                                compStatus.className = 'badge ' + getStatusBadgeClass(status) + ' ms-2';
+                            }
                         }
                     }
                     

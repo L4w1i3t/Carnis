@@ -10,6 +10,9 @@ components:
     - https://en.wikipedia.org/wiki/Artificial_intelligence
     - https://en.wikipedia.org/wiki/Biology
     - https://en.wikipedia.org/wiki/Biotechnology
+    - https://en.wikipedia.org/wiki/Cluster_analysis
+    - https://en.wikipedia.org/wiki/Machine_learning
+    - https://en.wikipedia.org/wiki/Dimensionality_reduction
   harvester: {}
   meatsnake: {}
   mimic:
